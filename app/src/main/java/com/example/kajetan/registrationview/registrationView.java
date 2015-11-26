@@ -14,7 +14,6 @@ import com.example.kajetan.model.User;
 public class registrationView extends AppCompatActivity {
 
     private User unregisteredUser;
-    private EditText name = (EditText)findViewById(R.id.nameText);
     final EditText surname = (EditText)findViewById(R.id.surnameText);
     final EditText mail = (EditText)findViewById(R.id.mailText);
     final EditText password1 = (EditText)findViewById(R.id.passwordText);
@@ -28,7 +27,7 @@ public class registrationView extends AppCompatActivity {
     }
 
     public void onSubmitClick(View view){
-        
+
         String Sname = name.getText().toString();
         String Ssurname = surname.getText().toString();
         String Smail = mail.getText().toString();
