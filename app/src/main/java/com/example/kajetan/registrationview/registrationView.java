@@ -14,6 +14,7 @@ import com.example.kajetan.model.User;
 public class registrationView extends AppCompatActivity {
 
     private User unregisteredUser;
+    final EditText name = (EditText)findViewById(R.id.nameText);
     final EditText surname = (EditText)findViewById(R.id.surnameText);
     final EditText mail = (EditText)findViewById(R.id.mailText);
     final EditText password1 = (EditText)findViewById(R.id.passwordText);
