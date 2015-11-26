@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RegistrationView</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration_view">registrationView</string>
+    <string name="submitButton">Submit</string>
+    <string name="registerButton">registerButton</string>
+</resources>
